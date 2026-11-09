@@ -1,4 +1,28 @@
 # Паспорт стенда
 
-Сгенерируйте этот файл командой `bash tools/sysinfo.sh` (Linux, WSL, macOS) или
-`powershell -ExecutionPolicy Bypass -File tools\sysinfo.ps1` (Windows) — это часть ДЗ0.
+_Сгенерировано `tools/sysinfo.sh` 2026-11-09 21:47._ Проверьте и дополните строки с пометкой «вручную».
+
+| Параметр | Значение |
+|---|---|
+| Модель ноутбука/ПК (вручную) |msi b550 gaming plus + amd ryzen 7 5700X 8-core + nvidia geforce rtx 3060ti 8gb + 32gb ram |
+| Процессор | AMD Ryzen 7 5700X 8-Core Processor |
+| Физических ядер | 8 |
+| Логических процессоров (с SMT) | 16 |
+| Сокетов / NUMA-узлов | 1 |
+| Производительные ядра (P) | нет |
+| Энергоэффективные ядра (E) | нет |
+| Частота | 3.4 ггц |
+| Кэш L1d | 256 KiB (8 instances) |
+| Кэш L2 | 4 MiB (8 instances) |
+| Кэш L3 | 32 MiB (1 instance) |
+| ОЗУ | 15.6 ГБ |
+| ОС | Ubuntu 26.04.1 LTS, ядро 6.18.54.1-microsoft-standard-WSL2 (WSL) |
+| Компилятор | gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0 (`gcc -fopenmp`) |
+| Версия OpenMP (_OPENMP) | 201511 → 4.5 |
+| omp_get_num_procs / omp_get_max_threads | 16 / 16 |
+| clang (для TSan) | Ubuntu clang version 21.1.8 (6ubuntu1) |
+| Режим питания | 381b4222-f694-41f0-9685-ff5bb260df2e  (Сбалансированная) |
+| Питание при замерах (вручную: сеть) | |
+| Пиковая полоса памяти по STREAM, ГБ/с (заполнить в ДЗ3) | |
+
+Если P/E-ядра не определились автоматически, найдите модель процессора на сайте производителя и впишите вручную.
